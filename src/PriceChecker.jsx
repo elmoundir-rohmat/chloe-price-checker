@@ -243,8 +243,8 @@ export default function PriceChecker() {
             {/* KPI row 2 — match breakdown */}
             <div className={styles.matchGrid}>
               <MatchCard label="SKU↔SKU"         value={stats.skuSku}  color="#5ab0f0" />
-              <MatchCard label="SKU↔Generic"     value={stats.skuGen}  color="#C9A97A" />
-              <MatchCard label="Generic↔SKU"     value={stats.genSku}  color="#C9A97A" />
+              <MatchCard label="SFCC SKU - SAP Generic" value={stats.skuGen}  color="#C9A97A" />
+              <MatchCard label="SFCC Generic - SAP SKU" value={stats.genSku}  color="#C9A97A" />
               <MatchCard label="Generic↔Generic" value={stats.genGen}  color="#a07de0" />
             </div>
 
